@@ -1,0 +1,36 @@
+{
+  "name": "node-instantsfun",
+  "version": "0.0.1",
+  "description": "simple client to listen instantsfun.es sounds from your console",
+  "main": "bin/node-instantsfun.js",
+  "bin": {
+    "node-instantsfun": "node-instantsfun.js"
+  },
+  "dependencies": {
+    "blessed": "^0.0.35",
+    "cheerio": "^0.17.0",
+    "request": "^2.36.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlion/node-instantsfun.git"
+  },
+  "keywords": [
+    "instantsfun",
+    "sounds",
+    "client",
+    "ncurses",
+    "client",
+    "api"
+  ],
+  "author": "Domenico Luciani \"DLion\" <domenicoleoneluciani@gmail.com> (http://dlion.it)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dlion/node-instantsfun/issues"
+  },
+  "homepage": "https://github.com/dlion/node-instantsfun"
+}
