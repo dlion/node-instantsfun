@@ -1,10 +1,10 @@
 {
   "name": "node-instantsfun",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "simple client to listen instantsfun.es sounds from your console",
-  "main": "bin/node-instantsfun.js",
+  "main": "./bin/node-instantsfun.js",
   "bin": {
-    "node-instantsfun": "node-instantsfun.js"
+    "node-instantsfun": "./bin/node-instantsfun.js"
   },
   "dependencies": {
     "blessed": "^0.0.35",
