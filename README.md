@@ -19,7 +19,7 @@ npm install node-instantsfun -g
 
 `node-instantsfun`
 
-After the fetching fase you can select which sound you want to listen pressing `enter`
+After the fetching phase you can select which sound you want to listen pressing `enter`
 
 You can kill the sound pressing `x`
 
