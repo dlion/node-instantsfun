@@ -10,9 +10,13 @@ Simple client to listen [instantsfun](http://instantsfun.es) sounds from the con
 
 
 ## Install
-`npm install node-instantsfun -g`
+
+```sh
+npm install node-instantsfun -g
+```
 
 ## Use
+
 `node-instantsfun`
 
 After the fetching fase you can select which sound you want to listen pressing `enter`
@@ -20,6 +24,10 @@ After the fetching fase you can select which sound you want to listen pressing `
 You can kill the sound pressing `x`
 
 You can exit pressing `q`
+
+## Screenshot
+
+![Screenshot](http://i.imgur.com/ljp4m7s.jpg)
 
 ## Author
 Domenico Luciani (DLion)
