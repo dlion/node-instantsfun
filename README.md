@@ -1,27 +1,37 @@
 node-instantsfun
 ================
 
-Simple client to listen [instantsfun](http://instantsfun.es) sounds
+Simple client to listen [instantsfun](http://instantsfun.es) sounds from the console
 
 ## Require
 
 * **mplayer**
 * **Node**
 
-## Use
 
-Install it and execute.
+## Install
+`npm install node-instantsfun -g`
+
+## Use
+`node-instantsfun`
+
 After the fetching fase you can select which sound you want to listen pressing `enter`
+
 You can kill the sound pressing `x`
+
+You can exit pressing `q`
 
 ## Author
 Domenico Luciani (DLion)
+
+domenicoleoneluciani@gmail.com
+
 [http://dlion.it](http://dlion.it)
 
 ## LICENSE
 The MIT License (MIT)
 
-Copyright (c) 2014 Domenico Luciani
+Copyright (c) 2014 Domenico Luciani <domenicoleoneluciani@gmail.com> (http://dlion.it)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
