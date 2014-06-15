@@ -89,7 +89,7 @@ screen.render();
 // My index List
 var arrayIndex = 0;
 //Session
-var mplayer;
+var mplayer = null;
 
 
 /**
@@ -132,7 +132,9 @@ instantsfun.getAllList(function(obj) {
       mplayer = exec("mplayer "+obj[arrayIndex].song);
     } else if(key.name === "x") {
       //Kill the music
-      mplayer.kill();
+      if(mplayer !== null) {
+        mplayer.kill();
+      }
     }
 
     screen.render();
