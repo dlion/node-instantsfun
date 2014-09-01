@@ -24,7 +24,7 @@
 
 var instantsfun = require('../lib/instantsfun.js'),
     blessed     = require('blessed'),
-    exec        = require('child_process').exec;
+    spawn       = require('child_process').spawn;
 
 
 //Create a screen object
@@ -89,7 +89,9 @@ screen.render();
 // My index List
 var arrayIndex = 0;
 //Session
-var mplayer = null;
+var mplayer = [];
+//Child
+var child = 0;
 
 
 /**
@@ -129,11 +131,11 @@ instantsfun.getAllList(function(obj) {
       }
     } else if(key.name === "enter") {
       //Execute music
-      mplayer = exec("mplayer "+obj[arrayIndex].song);
+      mplayer[child++] = spawn("mplayer",[obj[arrayIndex].song], {detached: true});
     } else if(key.name === "x") {
       //Kill the music
-      if(mplayer !== null) {
-        mplayer.kill();
+      if(child > 0) {
+        mplayer[--child].kill();
       }
     }
 
